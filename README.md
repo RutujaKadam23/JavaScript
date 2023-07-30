@@ -28,3 +28,15 @@
 
 5]Is Javascript a statically typed or a dynamically types language?
 -->JavaScript is a dynamically typed language because in dynamically typed language, the type of a variable is checked during run time in contarst to a statically typed language, where the type of variable is check during compile time.
+
+6]Can an anonymous function be assigned to a variable?
+-->Yes, you can assign an anonymous function to a variable.
+
+7]In JavaScript what is an argument object?
+-->The variables of JavaScript represent the arguments that are passed to a function.
+
+8]Define closure.
+-->In JavaScript, we need closures when a variable which is defined outside the scope in reference is accessed from some inner scope.
+
+9]What is the difference between JavaScript and JScript?
+-->Netscape provided the JavaScript language. Microsoft changed the name and called it JScript to avoid the trademark issue. In other words, you can say JScript is the same as JavaScript, but Microsoft provides it.
