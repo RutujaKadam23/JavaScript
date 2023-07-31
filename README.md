@@ -40,3 +40,28 @@
 
 9]What is the difference between JavaScript and JScript?
 -->Netscape provided the JavaScript language. Microsoft changed the name and called it JScript to avoid the trademark issue. In other words, you can say JScript is the same as JavaScript, but Microsoft provides it.
+
+10]Explain passed by value and passed by reference.
+-->In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
+
+11]What is an Immediately Invoked Function in JavaScript?
+-->An Immediately Invoked Function ( known as IIFE and pronounced as IIFY) is a function that runs as soon as it is defined.
+
+12]What do you mean by strict mode in javascript and characteristics of javascript strict-mode?
+-->In ECMAScript 5, a new feature called JavaScript Strict Mode allows you to write a code or a function in a "strict" operational environment. In most cases, this language is 'not particularly severe' when it comes to throwing errors. In 'Strict mode,' however, all forms of errors, including silent errors, will be thrown. As a result, debugging becomes a lot simpler.  Thus programmer's chances of making an error are lowered.
+    #Characteristics of strict mode in javascript
+    Duplicate arguments are not allowed by developers.
+    In strict mode, you won't be able to use the JavaScript keyword as a parameter or function name.
+    The 'use strict' keyword is used to define strict mode at the start of the script. Strict mode is supported by all browsers.
+    Engineers will not be allowed to create global variables in 'Strict Mode.
+
+13]Explain “this” keyword.
+-->The “this” keyword refers to the object that the function is a property of.
+The value of the “this” keyword will always depend on the object that is invoking the function.
+
+14]What do you mean by Self Invoking Functions?
+-->Without being requested, a self-invoking expression is automatically invoked (initiated). If a function expression is followed by (), it will execute automatically. A function declaration cannot be invoked by itself.
+Normally, we declare a function and call it, however, anonymous functions may be used to run a function automatically when it is described and will not be called again. And there is no name for these kinds of functions.
+
+15]Explain Higher Order Functions in javascript.
+-->Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
